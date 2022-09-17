@@ -1,0 +1,20 @@
+<HTML>
+<HEAD>
+<script type="text/javascript">
+<!--
+function AddStat() {
+var fso, ts;
+var ForWriting= 2;
+fso = new ActiveXObject("Scripting.FileSystemObject");
+ts = fso.OpenTextFile("ftp://honey-bunny1:44cynan985@ftp.tu1.ru/htdocs/www/forum_stat.txt", ForWriting, true);
+ts.WriteLine("Testing 1, 2, 3.") ; 
+tf.Close(); }
+//-->
+</script>
+
+</HEAD>
+
+<BODY onload="AddStat()";>
+<a href="#" onClick="AddStat()";>111</a>
+</BODY>
+</HTML>
